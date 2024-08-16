@@ -194,6 +194,11 @@ section {
   margin-bottom: 1rem;
 }
 
+.section__text__p3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
 .title {
   font-size: 3rem;
   text-align: center;
@@ -413,7 +418,7 @@ article .icon {
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
 }
 
 .email-icon {

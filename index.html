@@ -23,6 +23,7 @@
             </ul>
         </div>
     </nav>
+
     <nav id="hamburger-nav">
         <div class="logo">Prateek Bansal</div>
         <div class="hamburger-menu">
@@ -35,10 +36,12 @@
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#blogs" onclick="toggleMenu()">Blogs</a></li>
             </div>
         </div>
     </nav>
+
+
     <section id="profile">
         <div class="section__pic-container">
             <img src="./assets/favicon.png" alt="Prateek Bansal profile picture" />
@@ -48,7 +51,7 @@
             <h1 class="title">Prateek Bansal</h1>
             <p class="section__text__p2">Backend Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                <button class="btn btn-color-2" onclick="window.open('./assets/prateekBansalCV2024.pdf')">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -61,6 +64,107 @@
             </div>
         </div>
     </section>
+
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/aboutMePic.png" alt="About Me picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p class="section__text__p3">
+                        Hello World! 👋 My name is Prateek Bansal. I am a <b>software engineer with more than 2.5 years of experience</b>.
+                        Currently, I am working at <b><a href="https://www.skuad.io/" target="_blank" style="color: blue;">Skuad</a></b> as a <b>backend engineer</b>. People here loves me and call me a Revamp boy 😎.
+                        <br /><br />
+                        I consider myself an artist who can build a product by using its creativity and off course "JavaScript".
+                        I love to work on crazy engineering problems that impact lives of people.
+                        Finding solutions for them is what makes me happy and satisfied.
+
+                        <br /><br />
+                        Fun-Fact - I love JavaScript , Jalebi and Jethalal
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/codeconnct0.gif" alt="Code Connect" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Code Connect</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/mrpkdeveloper/CodeConnect', '_blank');">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/mrpkdeveloper/CodeConnect', '_blank');">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/whoPayWho.png" alt="Who Pay Who" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Who Pay Who</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/mrpkdeveloper/WhoPayWho', '_blank');">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://mrpkdeveloper.github.io/WhoPayWho/', '_blank');">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        </br>
+        <!-- <div class="contact-info-upper-container"> -->
+        <div class="contact-info-container">
+            <img src="./assets/linkedin-icon.png" alt="My LinkedIn profile" class="icon contact-icon" onclick="window.open('https://www.linkedin.com/in/prateek-bansal-734b191a4/', '_blank');" />
+            <img src="./assets/email.png" alt="My Email" class="icon contact-icon email-icon" onclick="window.open('mailto:examplemail@gmail.com', '_blank');" />
+            <img src="./assets/github-icon.png" alt="My Github profile" class="icon contact-icon" onclick="window.open('https://github.com/mrpkdeveloper', '_blank');" />
+        </div>
+        <!-- </div> -->
+
+    </section>
+
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p> Made With ❤️ . Copyright &#169; 2024 Prateek Bansal. All Rights Reserved.</p>
+    </footer>
+
+
     <script src="script.js"></script>
 </body>
 
