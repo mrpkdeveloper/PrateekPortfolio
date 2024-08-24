@@ -323,6 +323,8 @@ section {
 
 #experience {
   position: relative;
+  height: auto;
+  margin-bottom: 4%;
 }
 
 .experience-sub-title {
@@ -332,7 +334,65 @@ section {
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.experience-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: red; */
+  /* border: 10px solid black; */
+  flex-wrap: wrap;
+
+  margin-top: 2%;
+}
+
+.experience-content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: initial;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: yellow; */
+
+  width: 80%;
+
+  padding: 4%;
+  padding-top: 2%;
+  border-left: 0.2rem solid rgb(170, 169, 169);
+  /* border: 0.1rem solid black; */
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+/* circle */
+.experience-content::before {
+  content: "";
+  position: absolute;
+  width: 1.3rem;
+  height: 1.5rem;
+  top: 0;
+  left: calc(-0.8rem);
+  border-radius: 50%;
+  background-color: rgb(83, 82, 82);
+  border: 1% solid white;
+}
+
+.experience-content-date {
+  margin: 1% 0%;
+}
+
+.experience-content-list {
+  margin-top: 1.2%;
+  font-size: 1.1rem;
+}
+
+.experience-content-list > li {
+  margin: 0.5% 4%;
+  list-style-type: circle;
+}
+
+.project-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -380,6 +440,10 @@ article .icon {
   color: black;
 }
 
+.project-description {
+  margin: 1rem;
+}
+
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
@@ -388,6 +452,7 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;

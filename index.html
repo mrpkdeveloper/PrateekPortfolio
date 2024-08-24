@@ -114,7 +114,77 @@
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
+        <div class="experience-container">
+
+            <div class="experience-content">
+                <h2>SDE - Backend Engineer</h2>
+                <h3><a href="https://www.skuad.io/" target="_blank" style="color: blue;">Skuad</a></h3>
+                <h4 class="experience-content-date">July 2022 - Present</h4>
+
+                <ul class="experience-content-list ">
+                    <b> Contract Service</b>
+                    <li>
+                        Redesigned business APIs, cutting response time by <b> 96%
+                            (from 25+ seconds to under 1 second).</b>
+                    </li>
+                    <li>
+                        Optimized performance by reducing database and interservice calls, implementing <b>Redis caching</b>, and transitioning <b>time-intensive processes to asynchronous execution.</b>
+                    </li>
+                    <li>
+                        Developed a <b>fail-safe retry mechanism</b> for asynchronous processes.
+                    </li>
+
+                    <li>
+                        Modernized codebase: upgraded Mongoose, added Prettier and <b>ESLint</b> for better maintainability.
+                    </li>
+
+                    <li>
+                        Introduced features that significantly streamlined customer onboarding.
+                    </li>
+                </ul>
+
+                <ul class="experience-content-list">
+                    <b>Integrations Mapper Service</b>
+                    <li>
+                        Designed a <b>database-driven, generic API</b> system for stream-
+                        lined integration.
+
+                    </li>
+                    <li>
+                        Build a <b>recursive function</b> that dynamically converts inputs into desired objects based on predefined mappings
+                    </li>
+                </ul>
+
+                <ul class="experience-content-list">
+                    <b>Asset Management Service</b>
+                    <li>
+                        Built a microservice from scratch for company-wide asset
+                        management using <b>NestJS, GraphQL, TypeORM, and PostgreSQL.</b>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="experience-content">
+                <h2>Backend Intern</h2>
+                <h3><a href="https://oyesters.in/" target="_blank" style="color: blue;">Oyesters</a></h3>
+                <h4 class="experience-content-date">October 2020 – November 2020</h4>
+
+                <ul class="experience-content-list">
+                    <b> Platform for selling courses</b>
+                    <li>
+                        Collaborated in a team of 4 to integrate backend APIs.
+                    </li>
+                    <li>
+                        Developed a module for exporting JSON data to Excel and
+                        CSV formats.
+                    </li>
+                    <li>
+                        Implemented a Certificate Generator module.
+                    </li>
+                </ul>
+
+            </div>
 
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
@@ -123,7 +193,7 @@
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
+        <div class="project-details-container">
             <div class="about-containers">
 
                 <div class="details-container color-container">
@@ -131,11 +201,16 @@
                         <img src="./assets/codeconnct0.gif" alt="Code Connect" class="project-img" />
                     </div>
                     <h2 class="experience-sub-title project-title">Code Connect</h2>
+
+                    <p class="project-description">
+                        A platform for Online Technical interviews. Real-Time Video/Audio chat with Collaborative Code Editor.
+                    </p>
+
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/mrpkdeveloper/CodeConnect', '_blank');">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/mrpkdeveloper/CodeConnect', '_blank');">
+                        <button class="btn btn-color-1" onclick="window.open('https://github.com/mrpkdeveloper/CodeConnect', '_blank');">
                             Live Demo
                         </button>
                     </div>
@@ -146,11 +221,16 @@
                         <img src="./assets/whoPayWho.png" alt="Who Pay Who" class="project-img" />
                     </div>
                     <h2 class="experience-sub-title project-title">Who Pay Who</h2>
+
+                    <p class="project-description">
+                        A bill splitting tool. Minimum no of transactions while settling the accounts.
+                    </p>
+
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/mrpkdeveloper/WhoPayWho', '_blank');">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://mrpkdeveloper.github.io/WhoPayWho/', '_blank');">
+                        <button class="btn btn-color-1" onclick="window.open('https://mrpkdeveloper.github.io/WhoPayWho/', '_blank');">
                             Live Demo
                         </button>
                     </div>
